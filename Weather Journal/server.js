@@ -34,5 +34,5 @@ app.post('/add', (req,res)=>{
     date: req.body.date,
     userEntry: req.body.userEntry
   }
-  projectData.push(allData);
+  projectData=allData;
 })
